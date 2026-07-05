@@ -154,29 +154,27 @@ These can be combined with the mini-games below or reused as a building block in
 
 ## 🎮 Mini-services
 
-### 1. Rock Paper Scissors
+A growing collection of **provably-fair mini-games** built on the Mossland stack.
+Many are playable through the **Mossland Game Portal** ([`game-portal-web`](game-portal-web/)),
+which currently ships: **Rock-Paper-Scissors, Heads or Tails, Pizza Revolution, Gem Quest,
+Double Dice, Diamond & Bomb, Horse Race, One-Two-Three, and Keno**.
 
-- Folder: [`Rock Paper Scissors`](RockPaperScissors/README.md)
-- The user selects one of rock, paper, or scissors.
-- The game proceeds and win or loss is confirmed.
-- When you win, you get a profit of 1 ~ 10 times of the multiplier.
+Reference implementations included in this repository:
 
-### 2. THUG War
-
-- Folder: [`THUG War`](thug_war/README.md)
-- The starting THUG character appears, and the user must guess whether the character ID is higher or lower than the starting character.
-- THUG character IDs are displayed in ascending order on the top of the screen.
-
-### 3. Holy Gali
-
-- Folder: [`Holy Gali`](HGOE/README.md)
-- A mini-game inspired by the Halligali card game.
-- This is an odd-even game made using the card design of the Halligali card game.
-
-### 4. Lucky7
-
-- Folder: [`Lucky7`](Lucky7Dice/README.md)
-- A game of predicting whether the sum of two dice is greater than or less than 7.
+| Game | Description |
+| --- | --- |
+| [Rock Paper Scissors](RockPaperScissors/README.md) | Pick rock, paper, or scissors; a win pays a 1–10× multiplier. |
+| [Heads and Tails](HeadsAndTails/README.md) | Call heads or tails on a coin flip. |
+| [Higher](Higher/README.md) | Predict which card is the higher-numbered one. |
+| [Horse Race](HorseRace/README.md) | Bet on the winning horse. |
+| [Lucky7](Lucky7Dice/README.md) | Guess whether the sum of two dice is greater than or less than 7. |
+| [Lucky 11 Ball](Lucky11Ball/README.md) | Lucky-number ball game. |
+| [Pair Pair](PairPair/README.md) | Pair-matching game. |
+| [RYB](RYB/README.md) | Red · Yellow · Blue color game. |
+| [THUG War](thug_war/README.md) | Guess whether the next THUG character ID is higher or lower. |
+| [Holy Gali](HGOE/README.md) | An odd–even game built with Halli Galli card art. |
+| [Diamond and Bomb](DiamondAndBomb/) | Diamond-vs-bomb luck game. |
+| [One Two Three](OneTwoThree/) | Number mini-game. |
 
 You can:
 
@@ -352,29 +350,27 @@ Provably Fair 시스템은 온라인 게임(특히 도박/베팅)의 **투명성
 
 ## 🎮 미니서비스 목록
 
-### 1. 가위바위보 (Rock Paper Scissors)
+Mossland 스택 위에서 만들어진 **Provably-Fair 미니게임** 모음입니다.
+상당수는 **Mossland 게임 포털**([`game-portal-web`](game-portal-web/))에서 바로 플레이할 수 있으며,
+현재 포털에는 **가위바위보, Heads or Tails, Pizza Revolution, Gem Quest, Double Dice,
+Diamond & Bomb, Horse Race, One-Two-Three, Keno** 가 올라와 있습니다.
 
-- 폴더: [`Rock Paper Scissors`](RockPaperScissors/README.md)
-- 사용자가 가위/바위/보 중 하나를 선택합니다.
-- 게임이 진행되고 승패가 결정됩니다.
-- 승리 시, 배율에 따라 1 ~ 10배 이익을 얻습니다.
+이 리포지토리에 포함된 레퍼런스 구현 목록:
 
-### 2. THUG War
-
-- 폴더: [`THUG War`](thug_war/README.md)
-- 시작 THUG 캐릭터가 등장하고, 사용자는 다음 캐릭터 ID가 더 높을지/낮을지를 맞춰야 합니다.
-- 상단에는 THUG 캐릭터 ID 목록이 오름차순으로 표시됩니다.
-
-### 3. Holy Gali
-
-- 폴더: [`Holy Gali`](HGOE/README.md)
-- Halli Galli 카드 게임에서 영감을 얻은 미니게임입니다.
-- Halli Galli 카드 디자인을 활용한 **홀짝(odd–even) 게임** 형태로 구성되어 있습니다.
-
-### 4. Lucky7
-
-- 폴더: [`Lucky7`](Lucky7Dice/README.md)
-- 주사위 두 개의 합이 7보다 클지/작을지 예측하는 게임입니다.
+| 게임 | 설명 |
+| --- | --- |
+| [가위바위보 (Rock Paper Scissors)](RockPaperScissors/README.md) | 가위/바위/보 중 하나를 선택 — 승리 시 배율에 따라 1 ~ 10배 이익. |
+| [Heads and Tails](HeadsAndTails/README.md) | 동전 던지기의 앞/뒤를 맞히는 게임. |
+| [Higher](Higher/README.md) | 어느 카드가 더 높은 숫자인지 예측하는 게임. |
+| [Horse Race](HorseRace/README.md) | 우승하는 말에 베팅하는 게임. |
+| [Lucky7](Lucky7Dice/README.md) | 주사위 두 개의 합이 7보다 클지/작을지 예측. |
+| [Lucky 11 Ball](Lucky11Ball/README.md) | 행운의 숫자 볼 게임. |
+| [Pair Pair](PairPair/README.md) | 짝 맞추기 게임. |
+| [RYB](RYB/README.md) | Red · Yellow · Blue 컬러 게임. |
+| [THUG War](thug_war/README.md) | 다음 THUG 캐릭터 ID가 더 높을지/낮을지 맞히는 게임. |
+| [Holy Gali](HGOE/README.md) | Halli Galli 카드 디자인을 활용한 홀짝(odd–even) 게임. |
+| [Diamond and Bomb](DiamondAndBomb/) | 다이아몬드와 폭탄 운(luck) 게임. |
+| [One Two Three](OneTwoThree/) | 숫자 미니게임. |
 
 여러분은:
 
