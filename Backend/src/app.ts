@@ -22,6 +22,7 @@ import kenoRouter from "./route/keno";
 // import hgRouter from './route/hg';
 
 import luckyMatchRouter from "./route/luckyMatch";
+import rangeRushRouter from "./route/rangeRush";
 
 import userRouter from "./route/user";
 
@@ -79,6 +80,7 @@ app.use("/horseRace", horseRaceRouter);
 app.use("/oneTwoThree", oneTwoThreeRouter);
 app.use("/keno", kenoRouter);
 app.use("/luckyMatch", luckyMatchRouter);
+app.use("/rangeRush", rangeRushRouter);
 
 // app.use('/l7d', l7dRouter);
 // app.use('/hg', hgRouter);
