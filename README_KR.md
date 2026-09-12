@@ -1,5 +1,9 @@
 # Mossland 해커톤 (한국어 안내)
 
+<!-- opendevs-badges:start -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-64748b?style=flat)](LICENSE)
+<!-- opendevs-badges:end -->
+
 한국어 문서는 이제 메인 [`README.md`](README.md) 안에서 관리됩니다.
 
 👉 **[README.md 의 🇰🇷 한국어 섹션 바로가기](README.md#-모스랜드-해커톤-리포지토리-소개)**

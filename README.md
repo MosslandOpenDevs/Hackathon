@@ -2,6 +2,10 @@
 
 # Mossland Hackathon
 
+<!-- opendevs-badges:start -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-64748b?style=flat)](LICENSE)
+<!-- opendevs-badges:end -->
+
 This repository is the **playground for Mossland Hackathon**:  
 a place for MossCoin-related ideas, Mossland ecosystem services (including Mossverse mini-services),  
 and lightweight projects you want to start quickly.
